@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VernacularLearn | Home</title>
+  <!-- Direct File Paths (No Folders) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <nav class="navbar">
+    <div class="brand">
+      <span class="brand-icon">🧠</span> VernacularLearn
+    </div>
+    <button class="btn btn-primary" style="padding: 8px 16px; font-size: 0.85rem;" onclick="App.navigate('language.html')">
+      Start Learning
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <main class="container">
+    <div class="badge">🌍 Learning in the language you understand</div>
+    
+    <h1 class="hero-title">
+      Learn Better.<br>
+      <span>Learn in Your Language.</span>
+    </h1>
+    
+    <p class="hero-subtitle">
+      An AI-powered learning platform designed to help primary-school students understand educational content in their mother tongue and preferred language.
+    </p>
+
+    <!-- Phase Dividers -->
+    <div style="display: flex; gap: 12px; justify-content: center; margin-bottom: 24px; flex-wrap: wrap;">
+      <button class="btn btn-primary" onclick="App.navigate('language.html')">
+        Choose Your Language →
+      </button>
+      <button class="btn btn-outline" onclick="App.navigate('translator.html')">
+        🤖 Try AI Assistant
+      </button>
+    </div>
+
+    <div style="color: var(--text-muted); font-size: 0.85rem; font-weight: 500;">
+      ✓ Simple explanations &nbsp;&nbsp; ✓ Voice learning &nbsp;&nbsp; ✓ Practice & progress
+    </div>
+
+    <!-- Feature Section -->
+    <div style="margin-top: 60px;">
+      <h3 style="color: var(--primary); font-size: 0.9rem; letter-spacing: 1px; text-transform: uppercase;">Why Vernacular Learning?</h3>
+      <h2 style="font-size: 1.5rem; margin-top: 8px;">Education should speak <span>the learner's language.</span></h2>
+      
+      <div class="grid-2">
+        <div class="feature-card">
+          <div class="feature-icon">🗣️</div>
+          <div class="feature-title">Mother-Tongue Learning</div>
+          <div class="feature-desc">Help students understand concepts using their preferred regional or mother tongue.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <div class="feature-title">AI-Powered Assistance</div>
+          <div class="feature-desc">Ask questions and receive simple, learner-friendly explanations offline.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎤</div>
+          <div class="feature-title">Voice-Based Learning</div>
+          <div class="feature-desc">Speak questions and listen to explanations without depending completely on typing.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <div class="feature-title">Offline Friendly</div>
+          <div class="feature-desc">Designed with simple interfaces and offline sync for low-end Android devices.</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
 
